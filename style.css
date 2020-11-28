@@ -1,0 +1,128 @@
+/** Prototype */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(255, 252, 241);
+}
+.para{
+    font-size: 17px;
+    text-align: justify;
+    padding-right: 20px;
+}
+/** top haeder */
+.top-wrapper{
+    background: rgb(159,199,235);
+    background: linear-gradient(90deg, rgba(159,199,235,1) 4%, rgba(78,113,224,1) 79%);
+}
+.top-left{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.top-right{
+    padding-top: 10px;
+    float: right;
+}
+
+
+/** Header */
+.header-wrapper{
+    background: rgb(245,225,30);
+    background: linear-gradient(201deg, rgba(245,225,30,1) 0%, rgba(228,134,32,1) 79%);
+}
+.text{
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/** index start  */
+ul{
+    list-style-type: none;
+}
+li a:hover {
+    text-decoration: none;
+}
+footer{
+    background-color: beige;
+}
+.card-header{
+    background: rgb(159,199,235);
+    background: linear-gradient(90deg, rgba(159,199,235,1) 4%, rgba(78,113,224,1) 79%);
+}
+.btn-link {
+    text-align: center;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #666666;
+    font-size: 17px;
+}
+
+.card-sub{
+    background: #dee9f5;
+    border-right: 5px solid #666;
+}
+.card-body a{
+    color: #000;
+}
+
+/**Introduction*/
+.one-intro, .one-Motivation, .one-relation, .one-research{
+    margin-bottom: 50px;
+}
+
+
+/* *BackGround page* */
+.two-intro,
+.two-Related,
+.two-Research,
+.two-Scope,
+.two-Challenges{
+    margin-bottom: 50px;
+}
+
+/* * Research method */
+.three-intro,
+.three-research,
+.three-data,
+.three-Scope,
+.three-Implementation{
+    margin-bottom: 50px;
+}
+
+
+/* *Experimental* */
+.four-Intro,
+.four-Experimental,
+.four-Descriptive,
+.four-Summary{
+    margin-bottom: 50px;
+}
+
+/* *Future Study */
+.five-Summary,
+.five-Conclusions,
+.five-Recommendations,
+.five-Implication{
+    margin-bottom: 50px;
+}
+
+/* *footer */
+.footer-content{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}   
+.footer-wrapper{
+    background: rgb(159,199,235);
+    background: linear-gradient(90deg, rgba(159,199,235,1) 4%, rgba(78,113,224,1) 79%);
+}

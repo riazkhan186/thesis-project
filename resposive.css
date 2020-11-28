@@ -1,0 +1,126 @@
+
+@media (min-width:992px) and (max-width:1199.98px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+    /* *Introduction page */
+    .container {
+        max-width: 960px;
+    }
+    .text {
+        font-size: 20px;
+    }
+    .btn-link {
+        font-size: 12px !important;
+    }
+    .para{
+        font-size: 15px !important;
+    }
+    .footer-content {
+        font-size: 15px;
+    }
+    h4{
+        font-size: 1.2rem;
+    }
+
+
+}
+
+@media (min-width:576px) and (max-width:767.98px) {
+    .container {
+        max-width: 720px;
+    }
+    .top-left {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .top-right {
+        padding-bottom: 5px;
+        padding-top: 0px;
+    }
+    .text {
+        font-size: 18px;
+    }
+    .btn-link {
+        font-size: 16px !important;
+        text-align: center !important;
+    }
+
+    .card-body {
+        text-align: center !important;
+    }
+
+    .one-intro,.two-intro,.three-intro,.four-Intro,.five-Summary{
+        margin-top: 50px;
+    }
+
+    .para{
+        font-size: 15px !important;
+        padding-right: 0;
+    }
+    .footer-content {
+        font-size: 15px;
+    }
+    h4{
+        font-size: 1.2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+
+
+
+}
+
+
+
+@media (max-width:575.98px) {
+
+    .container {
+        max-width: 540px;
+    }
+    .top-left {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .top-right {
+        padding-bottom: 5px;
+        padding-top: 0px;
+    }
+    .text {
+        font-size: 16px;
+    }
+    .btn-link {
+        font-size: 14px !important;
+        text-align: center !important;
+    }
+
+    .card-body {
+        text-align: center !important;
+    }
+
+    .one-intro,.two-intro,.three-intro,.four-Intro,.five-Summary{
+        margin-top: 30px;
+    }
+
+    .para{
+        font-size: 16px !important;
+        padding-right: 0;
+    }
+    .footer-content {
+        font-size: 14px;
+    }
+    h4{
+        font-size: 1.1rem;
+    }
+    h2{
+        font-size: 1.4rem;
+    }
+
+
+}
